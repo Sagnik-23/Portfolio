@@ -1,0 +1,11 @@
+#typing-effect{
+    border-right: 13px solid;
+    border-spacing: 30px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: blink 0.4s step-end infinite;
+}
+@keyframes blink {
+    50% {border-color: transparent;}
+}
