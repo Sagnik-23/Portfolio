@@ -9,3 +9,24 @@
 @keyframes blink {
     50% {border-color: transparent;}
 }
+/* 6 182 212 */
+
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 50px 0;
+    box-shadow: 0 4px 8px rgba(6,182,212, 0.7);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(6,182,212, 0.7);
+}
+.contain {
+    display: flex;
+    justify-content: flex-end; /* Aligns child div to the right */
+    width: 100%;
+}
